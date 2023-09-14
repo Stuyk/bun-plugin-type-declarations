@@ -1,6 +1,6 @@
 {
     "name": "bun-plugin-type-declarations",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "build/index.js",
     "module": "build/index.js",
     "types": "build/index.d.ts",
@@ -21,6 +21,12 @@
     "dependencies": {
         "typescript": "^5.2.2"
     },
+    "files": [
+        "build",
+        "README.md",
+        "package.json",
+        "tsconfig.json"
+    ],
     "prettier": {
         "semi": true,
         "singleQuote": true,
