@@ -1,0 +1,29 @@
+{
+    "name": "bun-plugin-type-declarations",
+    "main": "build/index.js",
+    "module": "build/index.js",
+    "types": "build/index.d.ts",
+    "bugs": {
+        "url": "https://github.com/stuyk/bun-plugin-type-declarations/issues"
+    },
+    "homepage": "https://github.com/stuyk/bun-plugin-type-declarations#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stuyk/bun-plugin-type-declarations.git"
+    },
+    "scripts": {
+        "build": "bun ./build.ts"
+    },
+    "devDependencies": {
+        "bun-types": "latest"
+    },
+    "dependencies": {
+        "typescript": "^5.2.2"
+    },
+    "prettier": {
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 4
+    }
+}
